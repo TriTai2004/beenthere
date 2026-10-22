@@ -1,10 +1,9 @@
 package app.api;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import app.api.support.PostgresIntegrationTest;
 
-@SpringBootTest
-class ApiApplicationTests {
+class ApiApplicationTests extends PostgresIntegrationTest {
 
 	@Test
 	void contextLoads() {

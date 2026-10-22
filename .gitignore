@@ -1,0 +1,85 @@
+### Maven / Java build output ###
+/api/HELP.md
+target/
+/api/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Local configuration and secrets ###
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+/api/src/main/resources/application-local.yml
+/api/src/main/resources/application-local.yaml
+/api/src/main/resources/application-local.properties
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+### Logs and temporary files ###
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*~
+hs_err_pid*
+replay_pid*
+
+### Operating system files ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Local Docker configuration and database storage ###
+/compose.yaml
+/compose.override.yaml
+/compose.override.yml
+/docker-compose.override.yaml
+/docker-compose.override.yml
+/postgres-data/
+/DOCKER.md
+AUTH_API.md
+USER_API.md
+Dockerfile
+.dockerignore
+application-test.yml
+
+
+### Local project specification ###
+/di_roi_ke_database_spec.md
+
+
